@@ -1,7 +1,22 @@
 __pycache__/
 *.pyc
 .DS_Store
-sentinelai_alerts.db
+
+# Virtual environments
 .venv/
 venv/
+
+# Secrets
 .env
+*.key
+*.pem
+
+# Local databases
+*.db
+
+# Private and live logs
+logs/
+live_logs.csv
+
+# Temporary files
+*.log
